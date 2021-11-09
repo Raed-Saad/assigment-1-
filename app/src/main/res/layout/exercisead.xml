@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+
+    >
+<TextView
+    android:gravity="center"
+    android:textAlignment="center"
+    android:text="day"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/number"
+    android:layout_weight="50"
+    android:textColor="@color/white"
+    />
+    <TextView
+        android:gravity="center"
+        android:text="text2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/type"
+        android:textColor="@color/white"
+
+        />
+</LinearLayout>
